@@ -407,20 +407,6 @@ class Cell{
     state = "MOVING";
   }
   boolean gotoGoal(){  
-//      //print("\ngotoGoal");
-//      print("\ngoal.maxFrames=");
-//      print(goal.maxFrames);
-//      print("\ngotoGoal.xpos,ypos");
-//      print(goal.xpos);
-//      print(",");
-//      print(goal.ypos);
-//      print("\ngoal.frames");
-//      print(goal.frames);
-//      print("\n.xpos,ypos");
-//      print(xpos);
-//      print(",");
-//      print(ypos);
-  
       if(thereYet()){
 //        println("reached goal");
         xpos = goal.xpos;
@@ -438,7 +424,7 @@ class Cell{
   }
 
   boolean thereYet(){
-//    print("\nChecknig thereYet");
+//    print("\nChecknig if thereYet?");
 //    println(state);
     if(goal != null && goal.frames >= goal.maxFrames        
           && (
@@ -447,7 +433,7 @@ class Cell{
               ( (ypos > goal.ypos -5) && (ypos < goal.ypos+5) )
               )
         ){
-//      println("YESTHERE");
+//      println("Yes, I'm there!");
       state="DONE";
       return true;
     } 
