@@ -2,7 +2,7 @@ CS-101
 ======
 
 CS-101 (www.cs-101.com) is all about animating computer science algorithms. The initial goal for the project is to animate algorithms alongside with their code like following:
-![Alt text](/media/blog/demo1.gif "First demo")
+![Animated gif](/resources/images/blog/demo1.gif "Proof of concept demo")
 
 What is done and working?
 ---------------------------------------------------------
@@ -57,4 +57,7 @@ As it can be seen above, the lines that add the animations for bubblesort to the
     animList.nextFrame();
 ```
 
-More information about the structure of the code in the wiki.
+Here's a flowchart of how the entire code works. As more documentation is added, all these will be moved to the wiki:
+
+![Flowchart](/resources/images/planning/flowchart.png "Flow Chart")
+
