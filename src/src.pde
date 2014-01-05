@@ -12,17 +12,18 @@ Boolean firstRun = false;
 
 void setup() {
     if (!firstRun) {
-        print("SETTTUP");
+        print("SETTTUP\n");
         firstRun = true;
     }
-    print("SETTTUP");
+    
+    print("SETTTUP\n");
     size(500, 500);
     int[] input_array = {0, 5, 1, 2, 3, 4};
 
     prison1 = new Prison(input_array);
-
-    bubbleSort(animList, input_array);
-    /*
+    
+    //bubbleSort(animList, input_array);
+    
     // Which algorithm to run?
     if (input_algor == ALGOR_BUBBLE) {
       bubbleSort(animList, input_array);
@@ -39,7 +40,7 @@ void setup() {
     //selectionSort(animList, input_array);
 
     //insertionSort(animList, input_array);
-    */
+    
     animList.addPrison(prison1);
     animList.animReady();
 
