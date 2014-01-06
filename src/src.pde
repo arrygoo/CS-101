@@ -22,8 +22,6 @@ void setup() {
 
     prison1 = new Prison(input_array);
     
-    //bubbleSort(animList, input_array);
-    
     // Which algorithm to run?
     if (input_algor == ALGOR_BUBBLE) {
       bubbleSort(animList, input_array);
@@ -34,12 +32,12 @@ void setup() {
     } else if (input_algor == ALGOR_SELECTION) {
       selectionSort(animList, input_array);
       print("selectionSort");
+    } else if (input_algor == ALGOR_GNOME) {
+      gnomeSort(animList, input_array);
+      print("gnomeSort");
     } else {
       print("non");
     }
-    //selectionSort(animList, input_array);
-
-    //insertionSort(animList, input_array);
     
     animList.addPrison(prison1);
     animList.animReady();
@@ -53,7 +51,3 @@ void draw() {
     animList.run_anims();
 
 }
-
-
-
-
