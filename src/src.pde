@@ -18,7 +18,6 @@ void setup() {
     
     print("SETTTUP\n");
     size(500, 500);
-    int[] input_array = {0, 5, 1, 2, 3, 4};
 
     prison1 = new Prison(input_array);
     
