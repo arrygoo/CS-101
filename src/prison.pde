@@ -44,7 +44,7 @@ class Prison {
     // Input : Cell index
     // checks if the particular cell has reached its goal
     boolean  thereYet(int i) {
-        //print("\nChecknig thereYet");
+        //print("\nChecking thereYet");
         //print(i);
 
         return cells[i].thereYet();
