@@ -14,7 +14,7 @@ final String ALGOR_GNOME = "Gnome_Sort";
 String input_algor = ALGOR_GNOME;
 
 // the array that is to be sorted
-int[] input_array = {0, 5, 1, 2, 3, 4};
+int[] input_array = {0, 5, 1, 2, 3, 4, 5};
 
 // End of constants
 
