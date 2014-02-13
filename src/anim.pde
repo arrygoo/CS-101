@@ -1,4 +1,3 @@
-
 /*
 A class containing list of animations to run
 
@@ -22,7 +21,7 @@ class AnimList {
         state = "READY";
     }
 
-    /* Add a nextFrame to animList. This is used to separate animations that are supposed to run simultanously as opposed to one after each other
+    /* Add a nextFrame to animList. This is used to separate animations that are supposed to run simultaneously as opposed to one after each other
 
     Example:
 
